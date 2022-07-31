@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-  <h1> </h1>  
+    <div class="container-centered">
+        <div class="two-columns">
+<div class="left-column">
+ <header>
+ <img src="assets/DSC_1152.JPG" alt="my photo" id="profile-photo" width="200" height="170">
+ <h1>Alex Selivanov</h1>
+ <h2>Junior Frontend Developer</h2>   
+ </header>
+ <main>
+    <section class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML5, CSS3</li>
+          <li>JavaScript Basics</li>
+          <li>Git, GitHub</li>
+          <li>VS Code</li>
+          <li>Adobe Photoshop</li>
+        </ul>
+    </section>
+    <section class="languages">
+        <h3>Languages</h3>
+        <ul>
+          <li>
+              <p class="language-name">Russian</p>
+              <p>Native</p>
+          </li>
+          <li>
+            <p class="language-name">English</p>
+            <p>Intermediate</p>
+          </li>
+          <li>
+            <p class="language-name">Belarusian</p>
+            <p>Intermediate</p>
+          </li>
+        </ul>
+      </section>
+    <section class="contacts">
+      <h3>Contacts</h3>
+      <ul>
+        <li>
+          <img src="./icons/phone.svg" alt="Phone Icon" width="30" height="30">
+          <p>+375 29 274 52 95</p>
+        </li>
+        <li>
+          <img src="./icons/email.svg" alt="Email Icon" width="30" height="30">
+          <p>Lehich.92@mail.com</p>
+        </li>
+        <li>
+          <img src="./icons/telegram.svg" alt="Telegram Icon" width="30" height="30">
+          <p>@alexjnets</p>
+        </li>
+      </ul>
+    </section>
+    </main>
+</div>
+<aside class="right-column">
+  <section class="about-myself">
+    <div class="sub-header">
+      <h3> <img src="./icons/myself.svg" alt="About Myself Icon" width="30" height="30"> About Myself</h3>
+    </div>
+    <p>Having started my career as a layout designer in a local newspaper with minimum skills,
+      I became profficient in printing design. My keen interest in printing technologies led me to working
+      as a Prepress and DTP Engineer in the largest printing house in my city, where I continued self-learning,
+      examining the process of creating wine and food labels, magazines and other printed goods.</p>
+    <p>Three years ago I’ve become passionate about retouching. I’ve mastered different retouching techniques,
+      learned to work with graphic tablet, become an advanced Photoshop user and found my first job as a
+      retoucher.</p>
+    <p>Remote work as a retoucher gives me extra free time, which I spend learning Frontend Development.
+      I’m interested in Web Development because this occupation provides endless possibilities for professional
+      growth,
+      besides there’s a huge amount of free high quality resources for self-education and a large community of
+      developers.</p>
+    <p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a
+      proficient Frontend Developer.</p>
+  </section>
+  <section class="education">
+    <div class="sub-header">
+      <h3> <img src="./icons/education.svg" alt="Education Icon" width="30" height="30"> Education</h3>
+    </div>
+    <p><strong>Belarussian State Economical University</strong></p>
+    <p>Management Faculty</p>
+    <p>Years: 2010 - 2017</p>
+    <p>Specialization: Economical Informatics, Master's degree</p>
+  </section>
+  <section class="courses">
+    <div class="sub-header">
+      <h3> <img src="./icons/courses.svg" alt="Courses" width="30" height="30"> Courses</h3>
+    </div>
+    <ul>
+      <li>HTML and CSS Tutorials on code-basics.com</li>
+      <li>JavaScript Manual on learnjavascript.ru</li>
+      <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+    </ul>
+  </section>
+  <section class="code-example">
+    <div class="sub-header">
+      <h3> <img src="./icons/code.svg" alt="Code Icon" width="30" height="30"> Code example</h3>
+    </div>
+    <pre>
+<code>
+    function multiply (a, b) {
+        return a * b
+        }    
+</code>
+    </pre>
+  </section>
+</aside>
+</div>
+<footer>
+<a class="my-github" href="https://github.com/Vilent1">
+  <img class="github-icon" src="./icons/github.svg" alt="Github Icon" width="26" height="26">
+  <p>Visit my GitHub</p>
+</a>
+<p>© 2022</p>
+<a href="https://rs.school/js/">
+  <img src="./icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+</a>
+</footer>
+</div>
 </body>
+
 </html>
